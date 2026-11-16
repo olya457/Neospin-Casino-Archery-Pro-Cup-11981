@@ -5,8 +5,6 @@ import ReactAppDependencyProvider
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-  var window: UIWindow?
-
   var reactNativeDelegate: ReactNativeDelegate?
   var reactNativeFactory: RCTReactNativeFactory?
 
@@ -15,21 +13,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
   ) -> Bool {
     let delegate = ReactNativeDelegate()
-    let factory = RCTReactNativeFactory(delegate: delegate)
     delegate.dependencyProvider = RCTAppDependencyProvider()
-
     reactNativeDelegate = delegate
-    reactNativeFactory = factory
+    reactNativeFactory = RCTReactNativeFactory(delegate: delegate)
+    return true
+  }
+}
 
-    window = UIWindow(frame: UIScreen.main.bounds)
+class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+  var window: UIWindow?
 
+  func scene(
+    _ scene: UIScene,
+    willConnectTo session: UISceneSession,
+    options connectionOptions: UIScene.ConnectionOptions
+  ) {
+    guard let windowScene = scene as? UIWindowScene,
+          let appDelegate = UIApplication.shared.delegate as? AppDelegate,
+          let factory = appDelegate.reactNativeFactory else { return }
+    let window = UIWindow(windowScene: windowScene)
+    window.backgroundColor = UIColor(red: 0.043, green: 0.063, blue: 0.039, alpha: 1)
+    self.window = window
     factory.startReactNative(
       withModuleName: "NeospinCasinoArcheryProCup",
       in: window,
-      launchOptions: launchOptions
+      launchOptions: nil
     )
-
-    return true
   }
 }
 

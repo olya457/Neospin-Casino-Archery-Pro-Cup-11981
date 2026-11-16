@@ -1,97 +1,55 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Neospin Archery Pro
 
-# Getting Started
+React Native 0.86 application with TypeScript, React Navigation, local festival content and offline reservations.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## Run
 
-## Step 1: Start Metro
-
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
-
-To start the Metro dev server, run the following command from the root of your React Native project:
+Use Node.js 22.11 or newer. iOS dependencies require a modern Ruby installation with Bundler 4; this project was verified using Ruby 3.4.
 
 ```sh
-# Using npm
-npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
+npm install
 bundle install
+cd ios && bundle exec pod install && cd ..
+npm start
 ```
 
-Then, and every time you update your native dependencies, run:
+In another terminal, run `npm run ios` or `npm run android`.
+
+## Application
+
+- Four-second WebView loading animation and first-launch onboarding.
+- Championships and workshops with the supplied descriptions, schedules and participation requirements.
+- Guest selection, saved reservations, cancellation and locally generated QR tickets.
+- Rules and equipment guides with the complete supplied content.
+- Illustrated venue map with category filters, zoom, pan and linked activities.
+- English-language learning library: six articles and two videos, searchable by text, topic and format, with persistent bookmarks. Sources: World Archery, Archery Canada and Archery 360.
+- Empty initial booking history and reading list; no seeded user records.
+- All images are bundled from `src/assets`, named `archery-pro-*`. External resources open in the browser or YouTube; no external images are downloaded.
+- Page entrance, button press and target-pulse animations respect Reduce Motion and stop when their screens lose focus.
+- Layouts respond to actual content width, orientation and text scaling. Compact screens use one column; expanded windows use two-column lists and detail views, with a centered floating icon navigation bar.
+
+## Structure
+
+- `src/components`: shared interface elements, event and ticket cards.
+- `src/screens`: launch, program, bookings, guides and venue screens.
+- `src/navigation`: typed stack and bottom-tab navigation.
+- `src/data`: local image registry and supplied festival content.
+- `src/storage`: AsyncStorage hydration and serialized reservation writes.
+- `src/theme`: shared colors and styles.
+- `src/types`, `src/utils`: content types, date and ticket helpers.
+
+Festival dates remain September 20–21, 2026, as supplied in the designs. Reservations for elapsed dates appear in Past. Update the event dates in `src/data/festival-content.json` and the festival heading in `src/screens/EventScreens.tsx` when the organizer supplies a new schedule.
+
+Reservations and QR codes are local records on one device. No organizer server, shared capacity service, gate validation or cross-device synchronization is configured. Cancelled tickets no longer display a scannable code. Removing the app removes its local reservations.
+
+## iPhone Duo
+
+iOS uses a scene-based window and supports portrait and landscape. Build with Xcode 27.1 / iOS 27.1 SDK for iPhone Duo. Layouts update on window-size changes without resetting navigation, form selections or saved data. Side safe areas are respected; larger accessibility text switches grids back to a single column.
+
+## Checks
 
 ```sh
-bundle exec pod install
+npx tsc --noEmit
+npm run lint
+npm test -- --runInBand
 ```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.

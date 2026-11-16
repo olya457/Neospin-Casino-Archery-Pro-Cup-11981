@@ -1,0 +1,51 @@
+import { ImageKey } from '../data/images';
+export type Event = {
+  id: string;
+  title: string;
+  kind: 'championship' | 'workshop';
+  category: string;
+  location: string;
+  date: string;
+  time: string;
+  duration: string;
+  image: ImageKey;
+  description: string;
+  introduction: string;
+  program: string[];
+  highlights: string;
+  learns: string[];
+  equipment: string;
+  requirements: string;
+  age: string;
+};
+export type Guide = {
+  id: string;
+  title: string;
+  kind: 'rules' | 'technology';
+  subtitle: string;
+  introduction: string;
+  image: ImageKey;
+  fact: string;
+  sections: { title: string; body: string }[];
+};
+export type Venue = {
+  id: string;
+  title: string;
+  category: string;
+  access: string;
+  activities: string;
+  description: string;
+  introduction: string;
+  features: string[];
+  information: string;
+  image: ImageKey;
+  x: number;
+  y: number;
+};
+export type Booking = {
+  id: string;
+  eventId: string;
+  guests: number;
+  status: 'confirmed' | 'cancelled';
+  createdAt: string;
+};

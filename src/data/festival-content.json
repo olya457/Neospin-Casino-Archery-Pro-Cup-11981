@@ -1,0 +1,1136 @@
+{
+  "events": [
+    {
+      "id": "championship-1",
+      "title": "Recurve Masters Championship",
+      "kind": "championship",
+      "category": "Recurve Competition",
+      "location": "Main Championship Arena",
+      "date": "2026-09-20",
+      "time": "10:00–12:00",
+      "duration": "120 minutes",
+      "image": "recurve",
+      "description": "Watch elite recurve archers compete in a professional individual championship focused on precision, consistency, and technical skill.",
+      "introduction": "The Recurve Masters Championship brings together skilled athletes competing with Olympic-style recurve bows. Participants demonstrate advanced shooting techniques, concentration, and accuracy throughout a series of competitive rounds.\nSpectators can observe the complete competition process, from athlete preparation and qualification matches to elimination rounds and the final determination of the winners.",
+      "program": [
+        "10:00 — Athlete Introduction",
+        "10:15 — Qualification Round",
+        "10:50 — Elimination Matches",
+        "11:30 — Semifinal Matches",
+        "11:50 — Final Match"
+      ],
+      "highlights": "Olympic-style recurve bows, professional athletes, individual matches, electronic scoring, and live competition results.",
+      "learns": [],
+      "equipment": "",
+      "requirements": "",
+      "age": ""
+    },
+    {
+      "id": "championship-2",
+      "title": "Compound Precision Cup",
+      "kind": "championship",
+      "category": "Compound Competition",
+      "location": "Precision Arena",
+      "date": "2026-09-20",
+      "time": "12:30–14:00",
+      "duration": "90 minutes",
+      "image": "compound",
+      "description": "Experience a precision-focused competition featuring professional compound bow athletes and advanced archery equipment.",
+      "introduction": "The Compound Precision Cup showcases the technical capabilities of modern compound bows and the exceptional accuracy of professional archers. Competitors use specialized equipment to achieve consistent results during individual shooting rounds.\nVisitors can discover how mechanical bow systems, adjustable sights, and stabilizers contribute to competitive performance while watching athletes compete for the highest scores.",
+      "program": [
+        "12:30 — Competition Opening",
+        "12:40 — Equipment Presentation",
+        "12:55 — Qualification Round",
+        "13:20 — Elimination Matches",
+        "13:45 — Final Precision Round"
+      ],
+      "highlights": "Compound bows, professional aiming systems, high-accuracy shooting, digital scoreboards, and technical demonstrations.",
+      "learns": [],
+      "equipment": "",
+      "requirements": "",
+      "age": ""
+    },
+    {
+      "id": "championship-3",
+      "title": "Mixed Team Archery Challenge",
+      "kind": "championship",
+      "category": "Team Competition",
+      "location": "Team Competition Field",
+      "date": "2026-09-20",
+      "time": "14:30–16:00",
+      "duration": "90 minutes",
+      "image": "team",
+      "description": "Discover competitive mixed-team archery, where accuracy, coordination, and teamwork determine the winning team.",
+      "introduction": "The Mixed Team Archery Challenge features teams of two athletes working together to achieve the strongest combined performance.\nEach team must demonstrate consistency, effective communication, and precise shooting during competitive rounds. Spectators can follow the progress of participating teams through qualification matches and elimination rounds.\nThe event highlights the importance of teamwork in professional archery and offers an exciting alternative to individual competitions.",
+      "program": [
+        "14:30 — Team Presentation",
+        "14:45 — Opening Team Matches",
+        "15:10 — Quarterfinal Matches",
+        "15:30 — Semifinal Matches",
+        "15:50 — Final Team Match"
+      ],
+      "highlights": "Mixed-team competition, coordinated shooting, elimination matches, and team results.",
+      "learns": [],
+      "equipment": "",
+      "requirements": "",
+      "age": ""
+    },
+    {
+      "id": "championship-4",
+      "title": "Traditional Bow Masters Show",
+      "kind": "championship",
+      "category": "Traditional Archery Show",
+      "location": "Heritage Archery Field",
+      "date": "2026-09-20",
+      "time": "16:30–17:30",
+      "duration": "60 minutes",
+      "image": "traditional",
+      "description": "Explore the history of archery through live demonstrations of traditional bows and classical shooting techniques.",
+      "introduction": "The Traditional Bow Masters Show introduces visitors to the historical development of archery and the different techniques used across cultures.\nExperienced traditional archers demonstrate longbows, historical recurve designs, and classical shooting styles. The presentation explains how traditional equipment differs from modern competitive bows.\nVisitors can observe historical archery demonstrations while learning about the cultural significance of bows and arrows.",
+      "program": [
+        "16:30 — Introduction to Traditional Archery",
+        "16:40 — Historical Bow Presentation",
+        "16:55 — Traditional Shooting Demonstration",
+        "17:10 — Precision Demonstration",
+        "17:20 — Equipment and Heritage Presentation"
+      ],
+      "highlights": "Historical bows, traditional shooting styles, cultural presentations, and live demonstrations.",
+      "learns": [],
+      "equipment": "",
+      "requirements": "",
+      "age": ""
+    },
+    {
+      "id": "championship-5",
+      "title": "Grand Masters Final",
+      "kind": "championship",
+      "category": "Championship Final",
+      "location": "Grand Final Arena",
+      "date": "2026-09-20",
+      "time": "18:00–20:00",
+      "duration": "120 minutes",
+      "image": "medals",
+      "description": "Attend the main championship final and watch the leading archers compete for the World Archery Masters Cup trophy.",
+      "introduction": "The Grand Masters Final is the central competition of the festival, bringing together the highest-performing athletes from the championship program.\nThe event features professional final matches, live scoring, athlete presentations, and an official awards ceremony.\nVisitors can experience the atmosphere of an international sporting final as competitors demonstrate their skills under championship conditions.\nThe event concludes with the presentation of medals and the World Archery Masters Cup trophy.",
+      "program": [
+        "18:00 — Opening Ceremony",
+        "18:20 — Finalist Introduction",
+        "18:35 — Championship Matches",
+        "19:20 — Final Match",
+        "19:45 — Awards Ceremony"
+      ],
+      "highlights": "Championship finalists, professional competition, live results, medal presentations, and trophy ceremony.",
+      "learns": [],
+      "equipment": "",
+      "requirements": "",
+      "age": ""
+    },
+    {
+      "id": "championship-6",
+      "title": "Junior Archery Rising Stars",
+      "kind": "championship",
+      "category": "Youth Competition",
+      "location": "Main Championship Arena",
+      "date": "2026-09-21",
+      "time": "09:00–10:00",
+      "duration": "60 minutes",
+      "image": "training",
+      "description": "Discover the next generation of competitive archers in a dedicated junior championship.",
+      "introduction": "Junior Archery Rising Stars introduces talented young athletes competing in age-appropriate sporting categories. The competition focuses on technical development, precision, consistency, and competitive experience.\nVisitors can watch junior athletes demonstrate their training progress while competing in supervised rounds.",
+      "program": [
+        "09:00 — Junior Athlete Introduction",
+        "09:10 — Opening Shooting Round",
+        "09:30 — Qualification Results",
+        "09:40 — Final Round",
+        "09:55 — Closing Presentation"
+      ],
+      "highlights": "",
+      "learns": [],
+      "equipment": "",
+      "requirements": "",
+      "age": ""
+    },
+    {
+      "id": "championship-7",
+      "title": "Long Distance Archery Challenge",
+      "kind": "championship",
+      "category": "Distance Competition",
+      "location": "Precision Arena",
+      "date": "2026-09-21",
+      "time": "11:00–12:30",
+      "duration": "90 minutes",
+      "image": "range",
+      "description": "Watch professional archers demonstrate accuracy and control during a challenging long-distance shooting competition.",
+      "introduction": "The Long Distance Archery Challenge focuses on precision shooting at extended target distances. Competitors must maintain consistency and concentration while adapting to outdoor shooting conditions.\nThe event demonstrates the importance of technical preparation, equipment adjustment, and shooting accuracy.",
+      "program": [
+        "11:00 — Athlete Briefing",
+        "11:15 — Opening Shooting Round",
+        "11:40 — Intermediate Round",
+        "12:05 — Final Accuracy Challenge",
+        "12:20 — Results Announcement"
+      ],
+      "highlights": "",
+      "learns": [],
+      "equipment": "",
+      "requirements": "",
+      "age": ""
+    },
+    {
+      "id": "championship-8",
+      "title": "Archery Speed & Accuracy Cup",
+      "kind": "championship",
+      "category": "Special Challenge",
+      "location": "Team Competition Field",
+      "date": "2026-09-21",
+      "time": "13:00–14:00",
+      "duration": "60 minutes",
+      "image": "rain",
+      "description": "Experience a special archery challenge combining accurate shooting with controlled time limits.",
+      "introduction": "The Archery Speed & Accuracy Cup is a festival competition that challenges participants to maintain shooting precision while working within designated time limits.\nAthletes compete in supervised rounds designed to test concentration, consistency, and performance under time pressure.\nThis event uses a festival-specific competition format rather than a standard international championship discipline.",
+      "program": [
+        "13:00 — Competition Introduction",
+        "13:10 — Opening Challenge",
+        "13:25 — Timed Shooting Rounds",
+        "13:45 — Final Challenge",
+        "13:55 — Results Announcement"
+      ],
+      "highlights": "",
+      "learns": [],
+      "equipment": "",
+      "requirements": "",
+      "age": ""
+    },
+    {
+      "id": "championship-9",
+      "title": "International Archery Team Cup",
+      "kind": "championship",
+      "category": "International Team Event",
+      "location": "Main Championship Arena",
+      "date": "2026-09-21",
+      "time": "15:00–16:30",
+      "duration": "90 minutes",
+      "image": "competition",
+      "description": "Follow an international team archery tournament featuring coordinated performances and competitive elimination matches.",
+      "introduction": "The International Archery Team Cup brings together teams competing in a structured tournament format.\nEach team aims to achieve strong combined results through accurate shooting and consistent performances.\nSpectators can follow team rankings, elimination matches, and final results while discovering how team archery differs from individual competitions.",
+      "program": [
+        "15:00 — Team Introduction",
+        "15:15 — Opening Team Matches",
+        "15:40 — Elimination Round",
+        "16:05 — Final Match",
+        "16:20 — Results Presentation"
+      ],
+      "highlights": "",
+      "learns": [],
+      "equipment": "",
+      "requirements": "",
+      "age": ""
+    },
+    {
+      "id": "championship-10",
+      "title": "Champions Archery Exhibition",
+      "kind": "championship",
+      "category": "Exhibition Show",
+      "location": "Grand Final Arena",
+      "date": "2026-09-21",
+      "time": "17:00–18:00",
+      "duration": "60 minutes",
+      "image": "final",
+      "description": "Watch an exhibition featuring professional archers demonstrating advanced sporting techniques and equipment.",
+      "introduction": "The Champions Archery Exhibition presents an educational demonstration of professional archery skills and equipment.\nExperienced athletes demonstrate shooting techniques, equipment characteristics, and competition preparation procedures.\nThe presentation includes explanations of different bow types, aiming accessories, and the technical aspects of professional target archery.",
+      "program": [
+        "17:00 — Exhibition Opening",
+        "17:10 — Professional Equipment Demonstration",
+        "17:25 — Recurve Shooting Showcase",
+        "17:40 — Compound Bow Demonstration",
+        "17:55 — Closing Presentation"
+      ],
+      "highlights": "",
+      "learns": [],
+      "equipment": "",
+      "requirements": "",
+      "age": ""
+    },
+    {
+      "id": "workshop-1",
+      "title": "Introduction to Archery",
+      "kind": "workshop",
+      "category": "Beginner",
+      "location": "Workshop Center",
+      "date": "2026-09-21",
+      "time": "09:00–10:00",
+      "duration": "60 minutes",
+      "image": "introduction",
+      "description": "Learn the fundamentals of archery, discover essential equipment, and experience your first supervised shooting session.",
+      "introduction": "Introduction to Archery is designed for visitors who want to discover the basics of target archery in a safe and structured environment.\nDuring this beginner-friendly workshop, professional instructors introduce the main components of a bow, explain how archery equipment is used, and demonstrate the fundamental principles of shooting.\nParticipants learn about shooting range procedures, basic posture, and responsible equipment handling before taking part in supervised practical activities.\nNo previous archery experience is required.",
+      "program": [
+        "09:00 — Welcome and Safety Briefing",
+        "09:10 — Introduction to Archery Equipment",
+        "09:20 — Basic Shooting Posture Demonstration",
+        "09:35 — Supervised Practical Session",
+        "09:50 — Questions and Closing Review"
+      ],
+      "highlights": "",
+      "learns": [
+        "Basic principles of target archery.",
+        "Main components of archery equipment.",
+        "Shooting range safety procedures.",
+        "Fundamental shooting posture.",
+        "Responsible equipment handling."
+      ],
+      "equipment": "Beginner training bows, practice arrows, protective arm guards, finger protection, and supervised training targets.",
+      "requirements": "No previous experience required. Participants aged 12–17 must be accompanied by a responsible adult.",
+      "age": "12+"
+    },
+    {
+      "id": "workshop-2",
+      "title": "Perfect Shooting Stance",
+      "kind": "workshop",
+      "category": "Beginner / Intermediate",
+      "location": "Training Field",
+      "date": "2026-09-21",
+      "time": "10:30–11:30",
+      "duration": "60 minutes",
+      "image": "coaching",
+      "description": "Explore the principles of stable shooting posture, body alignment, and controlled movement in target archery.",
+      "introduction": "Perfect Shooting Stance focuses on the importance of body position and stability in competitive archery.\nExperienced instructors explain how posture, balance, and consistent positioning influence the shooting process.\nThe workshop includes visual demonstrations, guided posture exercises, and supervised practice activities.\nParticipants can observe how small differences in body alignment affect shooting consistency and learn the importance of maintaining a repeatable preparation routine.\nThis session is suitable for beginners who already understand basic range safety and visitors with some archery experience.",
+      "program": [
+        "10:30 — Introduction to Shooting Posture",
+        "10:40 — Body Alignment Demonstration",
+        "10:50 — Balance and Stability Exercises",
+        "11:05 — Supervised Shooting Practice",
+        "11:20 — Instructor Feedback and Review"
+      ],
+      "highlights": "",
+      "learns": [
+        "The importance of stable shooting posture.",
+        "Basic principles of body alignment.",
+        "How balance influences shooting consistency.",
+        "Common posture mistakes.",
+        "The role of controlled movement in archery."
+      ],
+      "equipment": "Training bows, protective equipment, practice targets, and instructional materials.",
+      "requirements": "Basic understanding of archery safety is recommended. Participants must follow all instructor directions.",
+      "age": "14+"
+    },
+    {
+      "id": "workshop-3",
+      "title": "Precision & Accuracy Training",
+      "kind": "workshop",
+      "category": "Intermediate",
+      "location": "Precision Training Area",
+      "date": "2026-09-21",
+      "time": "12:00–13:30",
+      "duration": "90 minutes",
+      "image": "precision",
+      "description": "Discover how concentration, consistent shooting movements, and performance analysis contribute to accuracy in competitive archery.",
+      "introduction": "Precision & Accuracy Training is an educational session dedicated to the technical and mental aspects of target archery.\nParticipants explore the importance of concentration, repeatable shooting movements, and equipment consistency.\nInstructors demonstrate how professional archers evaluate shooting results and identify areas for improvement.\nThe workshop combines explanations, visual examples, and supervised training activities to help participants understand the factors that influence accuracy.\nThis session is recommended for visitors who already have basic archery experience.",
+      "program": [
+        "12:00 — Introduction to Precision Shooting",
+        "12:15 — Concentration and Consistency",
+        "12:30 — Shooting Technique Demonstration",
+        "12:50 — Supervised Accuracy Exercises",
+        "13:15 — Performance Review and Discussion"
+      ],
+      "highlights": "",
+      "learns": [
+        "Factors affecting shooting accuracy.",
+        "The importance of consistent technique.",
+        "Basic concentration principles.",
+        "How shooting results are evaluated.",
+        "The role of equipment setup in precision archery."
+      ],
+      "equipment": "Training bows, practice arrows, protective accessories, scoring targets, and instructional equipment.",
+      "requirements": "Previous archery experience recommended. Practical activities require instructor approval.",
+      "age": "16+"
+    },
+    {
+      "id": "workshop-4",
+      "title": "Compound Bow Experience",
+      "kind": "workshop",
+      "category": "All Levels",
+      "location": "Workshop Center",
+      "date": "2026-09-21",
+      "time": "14:00–15:00",
+      "duration": "60 minutes",
+      "image": "demonstration",
+      "description": "Explore modern compound bow technology, discover its mechanical components, and observe professional equipment demonstrations.",
+      "introduction": "Compound Bow Experience introduces visitors to the engineering and design of modern compound bows.\nProfessional instructors explain how compound bows differ from traditional recurve equipment and demonstrate the role of cams, cables, limbs, and specialized accessories.\nParticipants can examine selected equipment under supervision and learn how modern mechanical systems are used in competitive target archery.\nThe workshop also introduces compound archery competition formats and the importance of equipment inspection.\nPractical activities, when available, are conducted under direct instructor supervision.",
+      "program": [
+        "14:00 — Introduction to Compound Archery",
+        "14:10 — Bow Components and Construction",
+        "14:25 — Mechanical System Demonstration",
+        "14:40 — Professional Equipment Presentation",
+        "14:50 — Questions and Discussion"
+      ],
+      "highlights": "",
+      "learns": [
+        "Main components of compound bows.",
+        "Differences between compound and recurve equipment.",
+        "Basic principles of cam systems.",
+        "The role of sights and stabilizers.",
+        "How compound bows are used in competitions."
+      ],
+      "equipment": "Demonstration compound bows, mechanical component displays, protective accessories, and educational materials.",
+      "requirements": "No previous experience required for observation. Hands-on activities depend on instructor approval.",
+      "age": "14+"
+    },
+    {
+      "id": "workshop-5",
+      "title": "Traditional Archery Skills",
+      "kind": "workshop",
+      "category": "All Levels",
+      "location": "Heritage Archery Field",
+      "date": "2026-09-21",
+      "time": "15:30–16:30",
+      "duration": "60 minutes",
+      "image": "heritage",
+      "description": "Discover historical bows, traditional archery practices, and the cultural development of archery through educational demonstrations.",
+      "introduction": "Traditional Archery Skills introduces visitors to the historical origins and cultural significance of archery.\nThe workshop explores different traditional bow designs and explains how archery techniques developed across various historical periods.\nInstructors present examples of longbows, traditional recurve bows, and historical archery accessories.\nVisitors can observe controlled demonstrations and learn how traditional equipment differs from modern competition bows.\nThe session combines historical information with practical educational activities.",
+      "program": [
+        "15:30 — Introduction to Archery History",
+        "15:40 — Traditional Bow Presentation",
+        "15:55 — Historical Shooting Demonstration",
+        "16:10 — Supervised Educational Activities",
+        "16:25 — Closing Discussion"
+      ],
+      "highlights": "",
+      "learns": [
+        "Historical development of archery.",
+        "Traditional bow designs.",
+        "Differences between historical and modern equipment.",
+        "Cultural uses of archery.",
+        "Basic safety principles for traditional equipment."
+      ],
+      "equipment": "Traditional bow displays, demonstration arrows, protective equipment, and educational materials.",
+      "requirements": "No previous experience required. Practical activities are supervised, and minors must be accompanied by a responsible adult.",
+      "age": "12+"
+    },
+    {
+      "id": "workshop-6",
+      "title": "Bow Equipment Masterclass",
+      "kind": "workshop",
+      "category": "All Levels",
+      "location": "Archery Technology Hall",
+      "date": "2026-09-21",
+      "time": "17:00–18:00",
+      "duration": "60 minutes",
+      "image": "masterclass",
+      "description": "Learn about professional archery equipment, modern materials, aiming accessories, and the technologies used in competitive shooting.",
+      "introduction": "Bow Equipment Masterclass provides an educational overview of the equipment used by professional archers.\nInstructors introduce the construction of recurve and compound bows, explain the functions of different accessories, and demonstrate how modern sporting technology supports consistent performance.\nThe workshop covers arrow materials, bow components, sights, stabilizers, and protective equipment.\nVisitors can explore selected equipment displays and learn about the importance of proper equipment selection and inspection.\nThe session is suitable for anyone interested in the technical side of archery.",
+      "program": [
+        "17:00 — Introduction to Professional Equipment",
+        "17:10 — Recurve and Compound Bow Comparison",
+        "17:25 — Arrows and Aiming Accessories",
+        "17:40 — Stabilizers and Protective Equipment",
+        "17:50 — Technology Demonstration and Questions"
+      ],
+      "highlights": "",
+      "learns": [
+        "Main components of modern bows.",
+        "Differences between recurve and compound equipment.",
+        "Materials used in professional arrows.",
+        "Functions of sights and stabilizers.",
+        "Basic equipment inspection principles.",
+        "Modern technologies used in competitive archery."
+      ],
+      "equipment": "Professional equipment displays, sample accessories, demonstration materials, and visual presentations.",
+      "requirements": "No previous experience required. Equipment handling is permitted only with instructor approval.",
+      "age": "12+"
+    }
+  ],
+  "guides": [
+    {
+      "id": "rules-1",
+      "title": "Basic Archery Rules",
+      "kind": "rules",
+      "subtitle": "Understanding the Fundamentals of Competitive Archery",
+      "introduction": "Competitive archery is a precision sport in which athletes shoot arrows at designated targets to achieve the highest possible score or win matches under a defined scoring system. Competitions follow established procedures to ensure fairness, consistency, and safety.",
+      "image": "stance",
+      "fact": "",
+      "sections": [
+        {
+          "title": "Competition Structure",
+          "body": "Archery competitions typically consist of qualification rounds followed by elimination matches and finals.\nDuring qualification, athletes shoot a specified number of arrows to establish rankings. These rankings determine their positions in the elimination bracket.\nIn elimination matches, athletes compete directly against opponents. The winners advance through the competition until the final matches determine the medal positions.\nThe exact structure depends on the bow division, event format, and competition regulations."
+        },
+        {
+          "title": "Shooting Line Rules",
+          "body": "Athletes must shoot from designated positions along the shooting line.\nCompetitors may only begin shooting when the appropriate signal has been given by the judges or competition officials.\nAll athletes must remain within their assigned shooting positions and follow the instructions of range personnel.\nCrossing the shooting line or entering restricted areas without permission is prohibited."
+        },
+        {
+          "title": "Shooting Sequence",
+          "body": "A typical shooting sequence includes several stages.\nPreparation: Athletes prepare their equipment and move to their assigned shooting positions when permitted.\nShooting Signal: An official signal indicates that shooting may begin.\nArrow Release: Athletes shoot the required number of arrows within the specified time limit.\nEnd of Shooting: Once shooting is complete, athletes follow the officials' instructions.\nScoring: Arrow values are recorded according to the competition's scoring procedures.\nArrow Collection: Athletes approach the targets only when the range is declared safe."
+        },
+        {
+          "title": "Athlete Responsibilities",
+          "body": "Every competitor is responsible for following the competition rules and maintaining safe behavior.\nAthletes must use permitted equipment, respect the decisions of competition officials, and avoid interfering with other competitors.\nThey must also ensure that their equipment is suitable for the competition and comply with inspection requirements when applicable."
+        },
+        {
+          "title": "Role of Judges",
+          "body": "Judges supervise competition procedures and ensure that established regulations are followed.\nTheir responsibilities may include verifying arrow scores, monitoring equipment compliance, resolving scoring disputes, enforcing time limits, and maintaining safe competition conditions.\nJudges' decisions are subject to the applicable rules and appeal procedures."
+        },
+        {
+          "title": "Competition Conduct",
+          "body": "Professional archery requires concentration and respect for other athletes.\nCompetitors must avoid unnecessary distractions, follow official instructions, and demonstrate appropriate sporting behavior.\nUnsportsmanlike conduct or violations of competition rules may result in penalties.\nImportant Fact: Archery competitions use different scoring and match formats depending on the discipline. Recurve and compound competitions do not always determine winners in the same way."
+        }
+      ]
+    },
+    {
+      "id": "rules-2",
+      "title": "Scoring System",
+      "kind": "rules",
+      "subtitle": "How Points Are Awarded in Archery",
+      "introduction": "In target archery, athletes earn points according to where their arrows land on the target face. The closer an arrow lands to the center, the higher its score.\nA standard ten-ring target uses values from 1 to 10.",
+      "image": "scoring",
+      "fact": "The highest score on a standard ten-ring target is 10 points per arrow, but some disciplines use an inner ten-ring or other specialized scoring zones.",
+      "sections": [
+        {
+          "title": "Target Scoring Zones",
+          "body": "A standard full ten-ring target contains five colored areas, each divided into two scoring rings."
+        },
+        {
+          "title": "Scoring Ring Values",
+          "body": "Target Color\nRing Values\nYellow\n10 and 9\nRed\n8 and 7\nBlue\n6 and 5\nBlack\n4 and 3\nWhite\n2 and 1\nAn arrow landing outside the scoring area receives zero points.\nIf an arrow touches the dividing line between two scoring zones, the higher value is generally awarded, subject to official judging procedures."
+        },
+        {
+          "title": "Qualification Round Scoring",
+          "body": "During qualification rounds, athletes shoot a predetermined number of arrows.\nThe points from all valid arrows are added together to calculate the athlete's total score.\nFor example, if an athlete shoots three arrows scoring 10, 9, and 8 points, the total score is 27.\nHigher qualification scores generally result in better rankings."
+        },
+        {
+          "title": "Recurve Match Scoring",
+          "body": "In common international outdoor recurve elimination matches, athletes compete using a set system.\nThe athlete with the higher score in a set receives two set points. If both athletes score equally, each receives one set point.\nThe first athlete to reach six set points wins the match.\nA tie at five set points each is normally resolved through a shoot-off."
+        },
+        {
+          "title": "Compound Match Scoring",
+          "body": "In common international outdoor compound elimination matches, athletes compete using cumulative arrow scores.\nEach arrow contributes to the athlete's overall match total.\nThe athlete with the higher total score at the end of the match wins.\nA tied match is resolved according to the applicable shoot-off rules."
+        },
+        {
+          "title": "Tie-Breaking Rules",
+          "body": "When athletes finish a match with equal results, a shoot-off may be required.\nIn an individual shoot-off, athletes typically shoot an additional arrow. If the scores are equal, the arrow closest to the target center determines the winner under the relevant rules.\nTeam shoot-offs use their own procedures."
+        }
+      ]
+    },
+    {
+      "id": "rules-3",
+      "title": "Competition Formats",
+      "kind": "rules",
+      "subtitle": "Understanding Professional Archery Tournaments",
+      "introduction": "Professional archery competitions are organized into different formats depending on the number of participants, bow type, and tournament structure.",
+      "image": "team",
+      "fact": "",
+      "sections": [
+        {
+          "title": "Individual Competitions",
+          "body": "Individual archery competitions involve athletes competing independently.\nEach participant shoots a specified number of arrows during qualification rounds.\nQualification results determine the athlete's ranking and placement in the elimination bracket.\nDuring elimination matches, athletes compete directly against individual opponents.\nThe competition continues until the final matches determine the winners."
+        },
+        {
+          "title": "Team Competitions",
+          "body": "Team archery competitions involve groups of athletes representing a club, organization, or country.\nIn standard international target archery team events, teams typically consist of three athletes.\nTeam members shoot according to the competition format, and their results contribute to the team's performance.\nTeam competitions require consistency, communication, and coordinated participation."
+        },
+        {
+          "title": "Mixed-Team Competitions",
+          "body": "Mixed-team competitions feature two athletes, typically one male and one female athlete, competing together.\nBoth participants contribute to the team's score.\nMixed-team matches are organized using established qualification and elimination procedures.\nThis format highlights cooperation and shared competitive responsibility."
+        },
+        {
+          "title": "Qualification Rounds",
+          "body": "Qualification rounds establish the rankings of participating athletes or teams.\nCompetitors shoot a defined number of arrows under standardized conditions.\nScores are recorded and used to determine the elimination bracket.\nQualification performance can influence an athlete's opponent in subsequent matches."
+        },
+        {
+          "title": "Elimination Matches",
+          "body": "Elimination matches determine which athletes advance through the tournament.\nCompetitors face opponents according to the competition bracket.\nThe winner of each match proceeds to the next round, while the losing athlete is eliminated from that stage.\nThe process continues until the final competitors remain."
+        },
+        {
+          "title": "Championship Finals",
+          "body": "Final matches determine the highest-ranking athletes or teams.\nDepending on the tournament structure, the final stage may include a gold medal match and a bronze medal match.\nChampionship finals are typically held in dedicated spectator arenas with official judging and scoring systems."
+        },
+        {
+          "title": "Recurve vs. Compound Competitions",
+          "body": "Recurve Archery: Uses recurve bows and commonly follows set-based match scoring in international outdoor elimination competitions.\nCompound Archery: Uses bows equipped with cam systems and commonly follows cumulative scoring in international outdoor elimination competitions.\nBoth disciplines require precision, concentration, and consistent technical performance."
+        }
+      ]
+    },
+    {
+      "id": "rules-4",
+      "title": "Target Types",
+      "kind": "rules",
+      "subtitle": "Explore Archery Targets and Shooting Distances",
+      "introduction": "Different archery disciplines use targets designed for specific competition formats and shooting distances.\nTarget size, scoring zones, and shooting distance depend on the discipline and competition regulations.",
+      "image": "target",
+      "fact": "",
+      "sections": [
+        {
+          "title": "Standard Outdoor Recurve Target",
+          "body": "The standard outdoor recurve target features ten scoring rings arranged in five colors.\nIn common international outdoor recurve competitions, athletes shoot at a target face measuring 122 cm in diameter from a distance of 70 meters.\nThe target uses a traditional scoring system with values from 1 to 10.\nKey Characteristics:\nTarget Diameter: 122 cm\nTypical Competition Distance: 70 meters\nScoring System: 1–10 points\nPrimary Discipline: Outdoor Recurve Archery"
+        },
+        {
+          "title": "Standard Outdoor Compound Target",
+          "body": "Outdoor compound competitions commonly use an 80 cm target face at a distance of 50 meters.\nIn major international competitions, a reduced target face displaying the central scoring zones is often used.\nCompound archery emphasizes extremely precise arrow placement.\nKey Characteristics:\nFull Target Face Diameter: 80 cm\nTypical Competition Distance: 50 meters\nScoring System: Central scoring zones\nPrimary Discipline: Outdoor Compound Archery"
+        },
+        {
+          "title": "Indoor Archery Targets",
+          "body": "Indoor archery competitions are generally conducted at a distance of 18 meters.\nIndoor target faces are smaller than outdoor targets and are adapted to the requirements of each bow division.\nIndoor competitions may use a vertical three-spot target arrangement.\nKey Characteristics:\nTypical Competition Distance: 18 meters\nCommon Full Target Diameter: 40 cm\nTarget Arrangement: Single face or three-spot\nPrimary Discipline: Indoor Target Archery"
+        },
+        {
+          "title": "Three-Spot Targets",
+          "body": "A three-spot target contains three separate scoring faces arranged vertically or in a triangular configuration.\nAthletes normally shoot one arrow at each scoring face during an end.\nThis arrangement helps reduce arrow damage caused by repeated hits in the same area.\nThree-spot targets are commonly used in indoor competitions."
+        },
+        {
+          "title": "Training Targets",
+          "body": "Training targets are used during practice sessions and educational workshops.\nThey may feature standard competition scoring rings or simplified target designs.\nTraining distances are selected according to the activity, equipment, and experience level of participants.\nAll practical shooting sessions must be supervised and conducted in designated safe areas."
+        },
+        {
+          "title": "Target Color System",
+          "body": "The five traditional target colors help athletes and judges identify scoring areas.\nThe yellow center represents the highest-scoring rings, followed by red, blue, black, and white zones.\nThe color system makes the target easy to recognize from a distance and supports consistent scoring procedures."
+        }
+      ]
+    },
+    {
+      "id": "rules-5",
+      "title": "Equipment Regulations",
+      "kind": "rules",
+      "subtitle": "Understanding Competition Equipment Requirements",
+      "introduction": "Professional archery competitions establish equipment requirements to maintain fairness, safety, and consistency.\nPermitted equipment depends on the bow division and competition regulations.",
+      "image": "equipment",
+      "fact": "",
+      "sections": [
+        {
+          "title": "Recurve Bow Regulations",
+          "body": "Recurve bows used in competitive target archery must comply with the rules of the relevant bow division.\nModern recurve equipment commonly includes a riser, flexible limbs, bowstring, arrow rest, sight, and stabilizers.\nCertain mechanical or electronic aiming aids are restricted in the recurve division.\nAthletes are responsible for ensuring that their equipment complies with applicable regulations."
+        },
+        {
+          "title": "Compound Bow Regulations",
+          "body": "Compound bows use mechanical cam systems to control the bow's draw characteristics.\nCompetition rules may regulate maximum draw weight and permitted accessories.\nCompound archers may use specialized sights, release aids, and other equipment allowed by the applicable rules.\nEquipment must be inspected when required by competition officials."
+        },
+        {
+          "title": "Arrow Regulations",
+          "body": "Competition arrows must meet the specifications established for the relevant division.\nRegulations may address arrow shaft diameter, identification markings, and permitted arrow components.\nArrows generally include a shaft, nock, fletching, and point.\nAthletes must use arrows that are safe and appropriate for their equipment."
+        },
+        {
+          "title": "Sight Regulations",
+          "body": "Archery sights help athletes aim consistently at the target.\nThe permitted sight design depends on the bow division.\nRecurve and compound divisions have different restrictions regarding optical components and aiming systems.\nAny prohibited electronic or mechanical assistance must not be used."
+        },
+        {
+          "title": "Stabilizer Regulations",
+          "body": "Stabilizers are accessories designed to improve bow balance and reduce unwanted movement.\nThey may include long rods, side rods, and connecting components.\nStabilizer configurations must comply with the applicable bow division requirements.\nEquipment must not create a safety risk or interfere with other competitors."
+        },
+        {
+          "title": "Protective Equipment",
+          "body": "Archers commonly use protective accessories to improve comfort and reduce the risk of injury.\nExamples include arm guards, finger tabs, chest guards, and appropriate hand protection.\nProtective equipment must be suitable for the athlete and permitted under the competition rules."
+        },
+        {
+          "title": "Equipment Inspection",
+          "body": "Competition officials may inspect bows, arrows, and accessories before or during an event.\nInspections help ensure that equipment complies with competition requirements.\nAthletes may be required to correct equipment violations before participating.\nImportant: Equipment regulations can change between disciplines and rule editions. Always consult the current official regulations for the specific competition."
+        }
+      ]
+    },
+    {
+      "id": "rules-6",
+      "title": "Safety Guidelines",
+      "kind": "rules",
+      "subtitle": "Essential Safety Rules for Archery Events",
+      "introduction": "Safety is a fundamental requirement at every archery competition, training session, and demonstration.\nAll athletes, instructors, officials, and spectators must follow established safety procedures.",
+      "image": "lesson",
+      "fact": "Archery is a controlled sporting activity. Safe participation requires appropriate equipment, qualified supervision, and strict compliance with range procedures.",
+      "sections": [
+        {
+          "title": "Follow Official Instructions",
+          "body": "Always follow the instructions provided by judges, range officers, and qualified instructors.\nDo not begin shooting until permission has been given.\nImmediately stop shooting when instructed.\nOfficial signals and safety procedures must be respected throughout the event."
+        },
+        {
+          "title": "Respect the Shooting Line",
+          "body": "The shooting line separates the designated shooting area from other parts of the range.\nOnly authorized participants may enter the shooting area during active shooting.\nSpectators must remain behind designated barriers.\nNever cross the shooting line without permission."
+        },
+        {
+          "title": "Safe Bow Handling",
+          "body": "Always handle archery equipment responsibly.\nNever point a bow or arrow toward another person.\nDo not draw a bow in an unsafe direction.\nOnly use equipment in designated areas under appropriate supervision."
+        },
+        {
+          "title": "Arrow Collection Procedures",
+          "body": "Arrows may only be collected when shooting has stopped and the range has been declared safe.\nNever approach a target while another participant is shooting.\nFollow the instructor's guidance when removing arrows from targets.\nBe aware of other people standing near the target."
+        },
+        {
+          "title": "Spectator Safety",
+          "body": "Spectators must remain within designated viewing areas.\nDo not enter active shooting ranges or restricted athlete zones.\nAvoid distracting competitors during shooting.\nFollow venue signs, barriers, and instructions from event staff."
+        },
+        {
+          "title": "Workshop Safety",
+          "body": "Visitors participating in practical workshops must follow the instructions of qualified instructors.\nParticipants should use appropriate equipment for their experience level.\nProtective accessories must be used when required.\nChildren and inexperienced participants must receive appropriate supervision."
+        },
+        {
+          "title": "Emergency Procedures",
+          "body": "If an unsafe situation occurs, immediately stop the activity and notify an instructor or event official.\nDo not attempt to retrieve equipment from restricted areas without authorization.\nFollow the venue's emergency instructions and move to designated safe areas when directed."
+        },
+        {
+          "title": "Equipment Condition",
+          "body": "Before using archery equipment, ensure that it has been checked by an appropriate instructor or responsible participant.\nDamaged bows, strings, arrows, or accessories must not be used.\nReport damaged or unsafe equipment to event staff."
+        }
+      ]
+    },
+    {
+      "id": "technology-1",
+      "title": "Recurve Bows",
+      "kind": "technology",
+      "subtitle": "The Technology Behind Olympic Archery",
+      "introduction": "Recurve bows are among the most recognizable types of equipment used in professional target archery. Their distinctive curved limbs store energy during the draw and transfer it to the arrow when the string is released.\nModern competition recurve bows combine precision engineering, adjustable components, and carefully selected materials to provide consistent shooting performance.",
+      "image": "traditional",
+      "fact": "Olympic recurve bows can be fitted with long stabilizer rods that extend forward from the riser to help manage balance and movement.",
+      "sections": [
+        {
+          "title": "What Is a Recurve Bow?",
+          "body": "A recurve bow is a bow with limb tips that curve away from the archer when the bow is unstrung.\nThis shape influences how the limbs store and release energy.\nModern Olympic-style recurve bows are commonly constructed from a central riser, two detachable limbs, a bowstring, and various competition accessories.\nRecurve bows are used in Olympic archery and many international target archery competitions."
+        },
+        {
+          "title": "Main Components",
+          "body": "Riser\nThe riser is the central structure of the bow. It connects the upper and lower limbs and provides mounting points for accessories.\nCompetition risers are commonly manufactured from aluminum alloys or carbon-based materials.\nUpper and Lower Limbs\nThe limbs are flexible components that bend when the bowstring is drawn.\nThey store elastic energy that is transferred to the arrow during release.\nModern limbs may contain combinations of carbon fiber, fiberglass, and laminated core materials.\nBowstring\nThe bowstring connects the limb tips and transfers energy from the bow to the arrow.\nCompetition bowstrings are commonly made from high-performance synthetic fibers.\nGrip\nThe grip is the area where the archer holds the bow.\nIts shape and position influence hand placement and shooting consistency.\nArrow Rest\nThe arrow rest supports the arrow before and during the initial stage of release.\nIt helps position the arrow consistently relative to the bow."
+        },
+        {
+          "title": "How a Recurve Bow Works",
+          "body": "When an archer draws the bowstring, the limbs bend and store elastic potential energy.\nAs the string is released, the limbs return toward their original position.\nThis movement accelerates the bowstring forward and transfers energy to the arrow.\nThe resulting arrow flight depends on the bow's characteristics, the arrow's properties, and the consistency of the archer's technique."
+        },
+        {
+          "title": "Technical Characteristics",
+          "body": "Characteristic\nDescription\nBow Type\nOlympic-style recurve\nMain Materials\nAluminum, carbon fiber, fiberglass, laminated composites\nTypical Bow Length\nApproximately 66–72 inches\nDraw Weight\nSelected according to the athlete and equipment configuration\nAccessories\nSight, stabilizers, clicker, arrow rest\nMain Application\nTarget archery competitions"
+        },
+        {
+          "title": "Advantages of Recurve Bows",
+          "body": "Recurve bows offer a combination of mechanical simplicity and precise adjustability.\nTheir modular construction allows athletes to select risers, limbs, and accessories according to their needs.\nThe equipment supports consistent shooting technique and is widely used in organized target archery competitions."
+        },
+        {
+          "title": "Recurve Bows in Professional Competition",
+          "body": "Olympic-style recurve bows are used in international individual, team, and mixed-team competitions.\nAthletes use adjustable sights, stabilizers, and other permitted accessories to improve equipment consistency.\nSuccessful performance depends on technical skill, concentration, equipment setup, and repeatable shooting movements."
+        }
+      ]
+    },
+    {
+      "id": "technology-2",
+      "title": "Compound Bows",
+      "kind": "technology",
+      "subtitle": "Advanced Mechanical Precision",
+      "introduction": "Compound bows use a system of cams, cables, and limbs to control how force changes during the draw.\nTheir mechanical design allows athletes to hold the bow at full draw with reduced holding force compared with the peak draw weight.\nCompound bows are widely used in professional target archery competitions and precision shooting disciplines.",
+      "image": "compound",
+      "fact": "Let-off is the percentage reduction from peak draw weight to holding weight at full draw. Its exact value varies between bow models and configurations.",
+      "sections": [
+        {
+          "title": "What Is a Compound Bow?",
+          "body": "A compound bow is a modern bow that uses rotating cams or similar mechanical systems connected by cables and a bowstring.\nAs the archer draws the string, the cams rotate and change the mechanical advantage of the system.\nThis produces a distinctive draw-force curve and allows the bow to store substantial energy."
+        },
+        {
+          "title": "Main Components",
+          "body": "Riser\nThe riser forms the central structure of the compound bow.\nIt supports the limbs, grip, arrow rest, sight, and other accessories.\nCam System\nCams are rotating components positioned near the ends of the limbs.\nThey control the mechanical characteristics of the draw cycle.\nCables\nThe cables connect parts of the cam system and help coordinate its operation.\nTheir configuration depends on the bow's design.\nLimbs\nThe limbs store energy as the bow is drawn.\nModern compound limbs are commonly made from engineered composite materials.\nBowstring\nThe bowstring transfers energy to the arrow when released.\nArrow Rest\nThe arrow rest supports and positions the arrow during the shot."
+        },
+        {
+          "title": "How Compound Bow Technology Works",
+          "body": "When the archer draws the bowstring, the cams rotate and the limbs bend.\nThe mechanical system changes the amount of force required throughout the draw.\nNear full draw, many compound bows provide a reduction in holding weight known as let-off.\nThis allows the athlete to maintain an aiming position while holding less force than the bow's peak draw weight.\nWhen the string is released, the stored energy accelerates the arrow."
+        },
+        {
+          "title": "Technical Characteristics",
+          "body": "Characteristic\nDescription\nBow Type\nCompound\nMain Mechanism\nCam and cable system\nCommon Materials\nAluminum, carbon, composite materials\nLet-Off\nDepends on cam design and setup\nTypical Accessories\nSight, scope, stabilizers, release aid\nMain Application\nCompound target archery"
+        },
+        {
+          "title": "Compound vs. Recurve Bows",
+          "body": "Recurve bows rely on the bending of their limbs without a compound cam system.\nCompound bows use mechanical components to modify the draw-force curve.\nCompound equipment often includes magnified sight systems and mechanical release aids where permitted.\nBoth bow types require consistent technique and careful equipment adjustment."
+        },
+        {
+          "title": "Compound Bows in Competition",
+          "body": "Professional compound archers compete in qualification rounds, elimination matches, and finals.\nCompound target competitions commonly use cumulative scoring formats.\nAthletes focus on precise aiming, repeatable execution, and equipment consistency."
+        }
+      ]
+    },
+    {
+      "id": "technology-3",
+      "title": "Precision Arrows",
+      "kind": "technology",
+      "subtitle": "Engineering Accuracy and Consistent Flight",
+      "introduction": "Arrows are carefully engineered components that influence accuracy, flight stability, and consistency.\nProfessional target archery arrows are designed using specialized materials and precisely manufactured parts.\nThe selection of an appropriate arrow depends on the bow, shooting discipline, and athlete's equipment configuration.",
+      "image": "training",
+      "fact": "Arrow fletching is not simply decorative. Its aerodynamic effect helps the arrow maintain stable flight toward the target.",
+      "sections": [
+        {
+          "title": "Arrow Construction",
+          "body": "A modern competition arrow generally consists of a shaft, point, nock, and fletching.\nEach component has a specific function during the shooting process."
+        },
+        {
+          "title": "Main Arrow Components",
+          "body": "Arrow Shaft\nThe shaft forms the main body of the arrow.\nIts material, diameter, weight, and stiffness influence flight characteristics.\nArrow Point\nThe point is attached to the front of the shaft.\nTarget archery points are designed for use with appropriate sporting targets.\nNock\nThe nock is positioned at the rear of the arrow.\nIt connects the arrow to the bowstring before release.\nFletching\nFletching consists of small vanes or feathers attached near the rear of the arrow.\nIt helps stabilize arrow flight.\nInsert\nSome arrow designs use inserts to connect points or other components to the shaft."
+        },
+        {
+          "title": "Carbon Arrows",
+          "body": "Carbon arrows are widely used in modern competitive archery.\nThey provide a combination of low weight, structural stiffness, and consistent manufacturing characteristics.\nCarbon shaft designs vary according to the shooting discipline and intended application."
+        },
+        {
+          "title": "Aluminum Arrows",
+          "body": "Aluminum arrows are manufactured from metal alloys and are commonly used in training and indoor target archery.\nThey can provide consistent shaft dimensions and are available in a wide range of specifications.\nSome competition arrows combine aluminum and carbon in a composite construction."
+        },
+        {
+          "title": "Arrow Spine",
+          "body": "Arrow spine describes the stiffness of an arrow shaft.\nAn arrow bends dynamically during the shot, and its stiffness must be appropriate for the bow and equipment setup.\nSelecting a suitable spine is important for consistent arrow flight."
+        },
+        {
+          "title": "Arrow Flight Stability",
+          "body": "Arrow stability depends on several interacting factors.\nThese include shaft stiffness, arrow weight, fletching design, equipment setup, and the quality of the release.\nFletching helps the arrow maintain a stable orientation during flight."
+        },
+        {
+          "title": "Technical Characteristics",
+          "body": "Characteristic\nDescription\nCommon Materials\nCarbon, aluminum, carbon-aluminum composites\nMain Components\nShaft, point, nock, fletching\nShaft Stiffness\nExpressed through spine specifications\nFletching\nFeathers or synthetic vanes\nArrow Length\nSelected according to equipment and athlete requirements\nMain Application\nIndoor and outdoor target archery"
+        },
+        {
+          "title": "Arrow Selection in Professional Archery",
+          "body": "Competitive athletes select arrows according to the characteristics of their bows and the requirements of their discipline.\nArrow sets are typically matched for consistency in length, weight, and other relevant characteristics.\nProper inspection is important because damaged arrows can create safety risks."
+        }
+      ]
+    },
+    {
+      "id": "technology-4",
+      "title": "Sights & Stabilizers",
+      "kind": "technology",
+      "subtitle": "Advanced Aiming and Bow Balance Technology",
+      "introduction": "Sights and stabilizers are important accessories used in professional target archery. They help athletes maintain consistent aiming references, manage bow balance, and improve the repeatability of their shooting technique.\nDifferent archery disciplines permit different types of sights and stabilization systems.",
+      "image": "equipment",
+      "fact": "Stabilizers can influence the bow's resistance to rotation by changing how its mass is distributed around the grip.",
+      "sections": [
+        {
+          "title": "Archery Sights",
+          "body": "An archery sight is an adjustable aiming device attached to the bow.\nIt provides a reference point that helps the athlete align the bow with the target.\nProfessional sights commonly allow precise horizontal and vertical adjustments.\nSight design varies depending on the bow type and competition regulations."
+        },
+        {
+          "title": "Main Sight Components",
+          "body": "Sight Extension\nThe extension positions the sight assembly at a selected distance from the bow riser.\nSight Bar\nThe sight bar provides a structure for vertical adjustments.\nSight Pin\nThe sight pin acts as an aiming reference.\nAdjustment Mechanism\nAdjustment controls allow the athlete to change the sight position.\nScope Housing\nCompound archery sights may include a scope housing with permitted optical components."
+        },
+        {
+          "title": "Stabilizer Systems",
+          "body": "Stabilizers are accessories designed to influence the balance and movement of the bow.\nThey are commonly attached to the riser and can include several interconnected components.\nA suitable stabilizer configuration can help an athlete maintain a consistent aiming position."
+        },
+        {
+          "title": "Main Stabilizer Components",
+          "body": "Long Stabilizer\nA long rod extending forward from the bow.\nIt changes the bow's mass distribution and rotational characteristics.\nSide Stabilizers\nShorter rods positioned at an angle to the bow.\nThey help adjust lateral balance.\nV-Bar\nA mounting component used to connect side stabilizers to the bow.\nStabilizer Weights\nAdditional weights used to adjust the overall balance of the equipment.\nVibration Dampers\nAccessories designed to reduce certain vibrations following the shot."
+        },
+        {
+          "title": "How Stabilizers Work",
+          "body": "Stabilizers change the distribution of mass around the bow.\nThis influences how the bow responds to small movements and rotational forces.\nThe effects depend on the stabilizer length, weight, position, and the athlete's technique.\nStabilizers do not automatically improve accuracy. Their effectiveness depends on appropriate setup and consistent shooting execution."
+        },
+        {
+          "title": "Technical Characteristics",
+          "body": "Characteristic\nDescription\nMain Materials\nCarbon fiber, aluminum, steel weights\nSight Adjustment\nVertical and horizontal\nStabilizer Types\nLong rods, side rods, extension rods\nMain Functions\nAiming reference and bow balance\nCompatibility\nDepends on bow type\nApplications\nRecurve and compound target archery"
+        },
+        {
+          "title": "Competition Applications",
+          "body": "Recurve archers commonly use a sight pin, long stabilizer, and side stabilizers.\nCompound archers may use specialized sight systems, including permitted magnification, and customized stabilizer configurations.\nAll equipment must comply with the relevant competition rules."
+        }
+      ]
+    },
+    {
+      "id": "technology-5",
+      "title": "Protective Equipment",
+      "kind": "technology",
+      "subtitle": "Comfort, Protection, and Safe Shooting",
+      "introduction": "Protective equipment plays an important role in professional archery. Specialized accessories help reduce discomfort, protect exposed areas, and support consistent interaction between the athlete and the bow.\nDifferent accessories are selected according to the shooting discipline, equipment type, and individual preferences.",
+      "image": "recurve",
+      "fact": "Finger tabs are often customized to match an athlete's hand shape and preferred anchoring position.",
+      "sections": [
+        {
+          "title": "Arm Guards",
+          "body": "An arm guard is worn on the inside of the bow arm.\nIt helps protect the forearm from accidental contact with the bowstring.\nArm guards are commonly manufactured from leather, plastic, or synthetic materials.\nThey are available in different lengths and designs."
+        },
+        {
+          "title": "Finger Tabs",
+          "body": "Finger tabs are protective accessories used by many recurve archers.\nThey provide a smooth surface between the fingers and the bowstring.\nA finger tab may contain several layers of leather or synthetic material.\nSome designs include adjustable plates, finger separators, and anchoring references."
+        },
+        {
+          "title": "Chest Guards",
+          "body": "A chest guard is worn across part of the chest and shoulder area.\nIt helps prevent clothing from interfering with the bowstring.\nChest guards are commonly made from lightweight mesh or synthetic materials.\nThey are especially useful when loose clothing could affect the shot."
+        },
+        {
+          "title": "Bow Slings",
+          "body": "A bow sling helps prevent the bow from falling after the shot.\nIt allows the archer to maintain a relaxed grip without losing control of the equipment.\nBow slings are available in wrist-mounted and finger-mounted configurations."
+        },
+        {
+          "title": "Finger Protection",
+          "body": "Finger protection is important for archers who draw and release the bowstring directly with their fingers.\nAppropriate accessories help reduce friction and pressure during repeated shooting.\nThe type of protection depends on the bow division and shooting technique."
+        },
+        {
+          "title": "Equipment Fit",
+          "body": "Protective accessories must fit comfortably and allow natural movement.\nPoorly fitted equipment may interfere with shooting technique or cause discomfort.\nAthletes should inspect their protective accessories regularly and replace damaged components."
+        },
+        {
+          "title": "Technical Characteristics",
+          "body": "Equipment\nPrimary Function\nArm Guard\nProtects the bow arm\nFinger Tab\nProtects drawing fingers\nChest Guard\nReduces clothing interference\nBow Sling\nHelps retain the bow\nFinger Protection\nReduces string contact discomfort\nProtective Clothing\nSupports comfort and safe participation"
+        },
+        {
+          "title": "Protective Equipment in Competitions",
+          "body": "Professional athletes select accessories that provide protection without interfering with their shooting movements.\nCompetition rules may establish requirements or restrictions for certain accessories.\nEquipment should be checked before shooting sessions to ensure that it remains suitable for use."
+        }
+      ]
+    },
+    {
+      "id": "technology-6",
+      "title": "Smart Archery Systems",
+      "kind": "technology",
+      "subtitle": "Digital Innovation in Modern Archery",
+      "introduction": "Modern archery competitions increasingly use digital technology to support scoring, athlete analysis, event management, and spectator information.\nElectronic systems help organizers display results efficiently, manage competition data, and provide detailed performance information.",
+      "image": "target",
+      "fact": "High-speed video can reveal small differences in shooting movement that are difficult to detect through ordinary visual observation.",
+      "sections": [
+        {
+          "title": "Electronic Scoring Systems",
+          "body": "Electronic scoring systems allow competition officials or authorized participants to record arrow values digitally.\nDepending on the system, scores may be entered manually through electronic devices or supported by specialized target-detection technology.\nRecorded information can be transferred to central competition management systems."
+        },
+        {
+          "title": "Digital Scoreboards",
+          "body": "Digital scoreboards display important competition information.\nThey may show athlete names, team names, current scores, set points, match status, and remaining shooting time.\nLarge screens help spectators follow competitions from different areas of the arena."
+        },
+        {
+          "title": "High-Speed Video Analysis",
+          "body": "High-speed cameras can record an athlete's shooting movement in detail.\nCoaches may use recorded footage to examine posture, bow movement, release consistency, and follow-through.\nVideo analysis allows athletes to review movements that are difficult to observe at normal speed."
+        },
+        {
+          "title": "Performance Analysis Software",
+          "body": "Performance analysis applications organize information collected during training and competition.\nDepending on the software, athletes and coaches can review shooting results, group patterns, session history, and performance trends.\nThese tools support structured training and progress evaluation."
+        },
+        {
+          "title": "Digital Competition Management",
+          "body": "Competition management systems help organizers coordinate tournament operations.\nThey can support athlete registration, qualification rankings, elimination brackets, scheduling, and result publication.\nDigital management reduces the need for manual data handling and helps keep competition information organized."
+        },
+        {
+          "title": "Smart Training Equipment",
+          "body": "Some training systems use sensors or measurement devices to record bow movement and other performance-related information.\nThese tools can provide additional feedback during supervised practice.\nThe usefulness of individual measurements depends on the system, its accuracy, and how the information is interpreted."
+        },
+        {
+          "title": "Live Results Technology",
+          "body": "Live results platforms allow spectators to follow scores and match progress.\nCompetition information may be displayed on arena screens, official websites, or dedicated event applications.\nThese systems help visitors stay informed during qualification rounds, elimination matches, and finals."
+        },
+        {
+          "title": "Technical Characteristics",
+          "body": "Technology\nMain Application\nElectronic Scoring\nDigital score recording\nDigital Scoreboards\nLive competition information\nHigh-Speed Cameras\nShooting technique analysis\nPerformance Software\nTraining data and progress review\nCompetition Management\nTournament organization\nTraining Sensors\nMovement and performance measurement\nLive Results Systems\nSpectator information"
+        },
+        {
+          "title": "Technology at World Archery Masters Cup",
+          "body": "The World Archery Masters Cup concept includes digital scoreboards, professional competition displays, and educational demonstrations of modern archery technology.\nVisitors can learn how electronic systems support competition management and how athletes use analytical tools during training.\nThe Archery Technology Hall provides an opportunity to explore these systems alongside professional bows, arrows, and accessories."
+        }
+      ]
+    }
+  ],
+  "venues": [
+    {
+      "id": "venue-1",
+      "title": "Main Championship Arena",
+      "category": "Arenas",
+      "access": "Ticket Holders",
+      "activities": "Professional Championships",
+      "description": "The main competition venue hosting professional recurve championships and major international archery events.",
+      "introduction": "The Main Championship Arena is one of the central sporting venues of the World Archery Masters Cup. It features professional shooting lanes, regulation-style archery targets, electronic scoring displays, and dedicated spectator grandstands.\nVisitors can watch experienced athletes compete in individual and team competitions while following live results on large digital screens.\nThe arena is designed to provide clear views of the shooting field and a comfortable environment for spectators.",
+      "features": [
+        "Professional recurve archery competitions.",
+        "Spectator seating areas.",
+        "Electronic scoring displays.",
+        "Championship announcements.",
+        "Designated entry and exit points."
+      ],
+      "information": "Please arrive before the scheduled competition and present your valid QR ticket at the entrance. Remain within designated spectator areas during active shooting.",
+      "image": "recurve",
+      "x": 43,
+      "y": 18
+    },
+    {
+      "id": "venue-2",
+      "title": "Precision Arena",
+      "category": "Arenas",
+      "access": "Ticket Holders",
+      "activities": "Compound and Precision Competitions",
+      "description": "A dedicated sporting arena for compound bow tournaments and advanced precision shooting competitions.",
+      "introduction": "Precision Arena is designed for competitions that focus on accuracy, consistency, and technical shooting performance.\nThe venue features professional target lanes, digital scoring equipment, and specialized shooting areas suitable for compound archery events.\nVisitors can observe professional athletes using modern compound bows, adjustable sights, stabilizers, and other precision equipment.\nThe arena also hosts selected long-distance shooting challenges and technical competitions.",
+      "features": [
+        "Compound bow competitions.",
+        "Precision shooting events.",
+        "Professional target installations.",
+        "Spectator viewing sections.",
+        "Digital scoreboards."
+      ],
+      "information": "Follow the designated spectator routes and remain behind safety barriers throughout the competitions.",
+      "image": "compound",
+      "x": 81,
+      "y": 23
+    },
+    {
+      "id": "venue-3",
+      "title": "Grand Final Arena",
+      "category": "Arenas",
+      "access": "Ticket Holders",
+      "activities": "Championship Finals and Awards",
+      "description": "The main venue for championship finals, professional exhibitions, and official awards ceremonies.",
+      "introduction": "Grand Final Arena is the festival's primary venue for major championship presentations and final competitions.\nThe arena features a professional shooting field, large spectator stands, premium lighting systems, and digital screens displaying athlete information and live results.\nVisitors can attend the most important championship matches, watch professional archery exhibitions, and experience official medal presentations.\nThe arena is designed to create a memorable atmosphere for the final stages of the World Archery Masters Cup.",
+      "features": [
+        "Championship final matches.",
+        "Professional archery exhibitions.",
+        "Medal ceremonies.",
+        "Trophy presentations.",
+        "Large spectator grandstands.",
+        "Live competition displays."
+      ],
+      "information": "Entry is managed according to event reservations. Keep your QR ticket available for verification.",
+      "image": "final",
+      "x": 43,
+      "y": 28
+    },
+    {
+      "id": "venue-4",
+      "title": "Team Competition Field",
+      "category": "Arenas",
+      "access": "Ticket Holders",
+      "activities": "Team Tournaments",
+      "description": "A dedicated competition field for mixed-team tournaments, coordinated shooting events, and special archery challenges.",
+      "introduction": "Team Competition Field hosts archery events in which athletes compete together in organized teams.\nThe field includes multiple shooting positions, professional targets, official scoring equipment, and spectator viewing areas.\nVisitors can observe how team members coordinate their performances and contribute to their team's overall results.\nThe venue also hosts selected festival challenges focused on accuracy and performance under time limits.",
+      "features": [
+        "Mixed-team competitions.",
+        "Team elimination matches.",
+        "Special archery challenges.",
+        "Official scoring stations.",
+        "Spectator viewing areas."
+      ],
+      "information": "Spectators must remain behind the designated barriers and follow instructions from competition officials.",
+      "image": "team",
+      "x": 15,
+      "y": 28
+    },
+    {
+      "id": "venue-5",
+      "title": "Training Field",
+      "category": "Workshops",
+      "access": "Authorized Participants",
+      "activities": "Practice Sessions and Training",
+      "description": "A professional training area designed for athlete preparation, supervised practice, and educational shooting sessions.",
+      "introduction": "Training Field provides a dedicated environment for archery practice and technical preparation.\nThe area includes marked shooting positions, practice targets, equipment preparation stations, and designated instructor zones.\nProfessional athletes use the field to prepare for competitions, while selected educational workshops introduce visitors to the principles of controlled shooting movements and proper body alignment.\nPractical activities take place under appropriate supervision.",
+      "features": [
+        "Athlete practice sessions.",
+        "Shooting stance workshops.",
+        "Practice targets.",
+        "Instructor-led demonstrations.",
+        "Equipment preparation areas."
+      ],
+      "information": "Access to active shooting areas is restricted to authorized athletes, instructors, and registered workshop participants.",
+      "image": "range",
+      "x": 17,
+      "y": 45
+    },
+    {
+      "id": "venue-6",
+      "title": "Workshop Center",
+      "category": "Workshops",
+      "access": "Registered Participants",
+      "activities": "Archery Workshops",
+      "description": "The main educational facility offering instructor-led archery workshops and equipment demonstrations.",
+      "introduction": "Workshop Center is the festival's primary location for educational activities and practical archery introductions.\nThe facility features modern training spaces, equipment demonstration areas, presentation screens, and designated learning zones.\nVisitors can attend sessions covering archery fundamentals, shooting techniques, compound bow technology, and professional sporting equipment.\nWorkshops are conducted by instructors who explain the equipment and guide participants through appropriate activities.",
+      "features": [
+        "Beginner archery workshops.",
+        "Compound bow demonstrations.",
+        "Equipment presentations.",
+        "Educational training sessions.",
+        "Instructor-led activities."
+      ],
+      "information": "A confirmed workshop reservation may be required. Please arrive before your session and follow the instructor's safety instructions.",
+      "image": "lesson",
+      "x": 80,
+      "y": 44
+    },
+    {
+      "id": "venue-7",
+      "title": "Archery Technology Hall",
+      "category": "Exhibitions",
+      "access": "Festival Visitors",
+      "activities": "Technology and Equipment Exhibitions",
+      "description": "Explore professional archery equipment, modern bow technology, and advanced sporting accessories.",
+      "introduction": "Archery Technology Hall is a dedicated exhibition space introducing visitors to the equipment used in modern competitive archery.\nThe hall contains displays featuring Olympic-style recurve bows, compound bows, precision arrows, sights, stabilizers, and protective accessories.\nVisitors can examine different equipment categories, explore their technical characteristics, and learn how modern technology supports competitive performance.\nSelected presentations explain electronic scoring systems, digital competition displays, and sporting equipment innovations.",
+      "features": [
+        "Recurve bow exhibitions.",
+        "Compound bow displays.",
+        "Precision arrow collections.",
+        "Professional accessories.",
+        "Digital scoring technology.",
+        "Equipment demonstrations."
+      ],
+      "information": "Please follow exhibition rules and avoid handling displayed equipment unless permission is given by authorized staff.",
+      "image": "equipment",
+      "x": 80,
+      "y": 64
+    },
+    {
+      "id": "venue-8",
+      "title": "Heritage Archery Field",
+      "category": "Arenas",
+      "access": "Festival Visitors / Ticket Holders",
+      "activities": "Historical Archery Demonstrations",
+      "description": "Discover traditional bows, historical shooting techniques, and the cultural heritage of archery.",
+      "introduction": "Heritage Archery Field is a themed outdoor area dedicated to the history and traditions of archery.\nThe location features historical bow displays, traditional target arrangements, and supervised demonstration zones.\nVisitors can observe experienced archers presenting classical shooting styles and explaining the differences between traditional and modern sporting equipment.\nThe field also hosts educational sessions introducing historical archery practices and equipment.",
+      "features": [
+        "Traditional bow demonstrations.",
+        "Historical archery equipment.",
+        "Cultural presentations.",
+        "Classical shooting techniques.",
+        "Educational workshops."
+      ],
+      "information": "Visitors must remain within designated observation areas during live demonstrations.",
+      "image": "traditional",
+      "x": 16,
+      "y": 62
+    },
+    {
+      "id": "venue-9",
+      "title": "Visitor Lounge",
+      "category": "Facilities",
+      "access": "Festival Visitors",
+      "activities": "Rest and Relaxation",
+      "description": "A comfortable relaxation area where visitors can rest between championship events and workshops.",
+      "introduction": "Visitor Lounge provides a dedicated space for guests who want to take a break during the festival.\nThe lounge features comfortable seating, modern interior design, and a quiet atmosphere away from active competition areas.\nVisitors can review their event schedules, access their reservations, and plan their next activities.\nThe space is designed for short breaks between scheduled events.",
+      "features": [
+        "Comfortable seating.",
+        "Relaxation areas.",
+        "Visitor information.",
+        "Rest spaces.",
+        "Festival schedule displays."
+      ],
+      "information": "Please respect other visitors and keep shared seating areas clean.",
+      "image": "festival",
+      "x": 40,
+      "y": 56
+    },
+    {
+      "id": "venue-10",
+      "title": "Food Court",
+      "category": "Facilities",
+      "access": "Festival Visitors",
+      "activities": "Dining and Refreshments",
+      "description": "A dedicated dining area offering food, refreshments, and seating for championship visitors.",
+      "introduction": "Food Court is the main dining area within the World Archery Masters Cup festival grounds.\nThe location includes food service counters, refreshment stations, and designated seating areas.\nVisitors can take a break between competitions, enjoy meals, and spend time with friends or family.\nThe dining area is connected to the main pedestrian routes for convenient access from the championship arenas and exhibition facilities.",
+      "features": [
+        "Food service areas.",
+        "Refreshment stations.",
+        "Dining tables.",
+        "Outdoor seating.",
+        "Waste disposal facilities."
+      ],
+      "information": "Food and beverage availability may vary during the event. Follow posted venue instructions.",
+      "image": "festival",
+      "x": 67,
+      "y": 77
+    },
+    {
+      "id": "venue-11",
+      "title": "Main Entrance",
+      "category": "Facilities",
+      "access": "All Arriving Visitors",
+      "activities": "Entry and Ticket Verification",
+      "description": "The primary entrance to the festival, providing visitor access, event information, and QR-ticket verification.",
+      "introduction": "Main Entrance is the central arrival point for visitors attending the World Archery Masters Cup.\nThe entrance area features clearly marked access routes, visitor information displays, and dedicated ticket verification points.\nGuests attending reserved competitions or workshops can present their QR tickets at the appropriate check-in locations.\nFestival staff assist visitors with entrance procedures and provide directions to the different venues.\nThe main entrance connects directly to the central festival plaza and primary pedestrian routes.",
+      "features": [
+        "Main visitor entrance.",
+        "QR-ticket verification.",
+        "Event information.",
+        "Visitor assistance.",
+        "Festival directions.",
+        "Access to the central plaza."
+      ],
+      "information": "Keep your QR ticket ready when entering a reserved event. Follow the directions provided by festival staff.",
+      "image": "entrance",
+      "x": 48,
+      "y": 88
+    }
+  ]
+}
