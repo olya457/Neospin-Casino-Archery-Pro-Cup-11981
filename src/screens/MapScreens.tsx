@@ -75,7 +75,6 @@ export function ArenaMapScreen({
   const [selected, setSelected] = useState<Venue | undefined>();
   const [zoom, setZoom] = useState(1);
   const horizontal = useRef<ScrollView>(null);
-  const vertical = useRef<ScrollView>(null);
   const { width } = useWindowDimensions();
   const [measuredWidth, setMeasuredWidth] = useState(0);
   const mapWidth = Math.max(180, measuredWidth || Math.min(width - 40, 610));
@@ -93,10 +92,9 @@ export function ArenaMapScreen({
   const reset = () => {
     setZoom(1);
     horizontal.current?.scrollTo({ x: 0, animated: true });
-    vertical.current?.scrollTo({ y: 0, animated: true });
   };
   return (
-    <Page title="Arena Map" eyebrow="FESTIVAL NAVIGATION">
+    <Page title="Arena Map" eyebrow="FESTIVAL NAVIGATION" avoidTabBar>
       <View style={s.content}>
         <SectionTitle
           label="World Archery Masters Cup"
@@ -148,7 +146,7 @@ export function ArenaMapScreen({
           }
           style={[
             s.card,
-            { height: Math.min(510, mapHeight), backgroundColor: '#293E25' },
+            { height: mapHeight * zoom + 2, backgroundColor: '#293E25' },
           ]}
         >
           <ScrollView
@@ -158,67 +156,57 @@ export function ArenaMapScreen({
             showsHorizontalScrollIndicator={false}
             bounces={false}
           >
-            <ScrollView
-              ref={vertical}
-              nestedScrollEnabled
-              showsVerticalScrollIndicator={false}
-              bounces={false}
-              style={{ width: mapWidth * zoom }}
-            >
-              <View
-                style={{ width: mapWidth * zoom, height: mapHeight * zoom }}
-              >
-                <Image
-                  source={images.map}
-                  style={{ width: '100%', height: '100%', opacity: 0.68 }}
-                  resizeMode="stretch"
-                />
-                {visible.map(venue => (
-                  <Pressable
-                    accessibilityRole="button"
-                    accessibilityLabel={venue.title}
-                    accessibilityState={{ selected: selected?.id === venue.id }}
-                    key={venue.id}
-                    onPress={() => setSelected(venue)}
+            <View style={{ width: mapWidth * zoom, height: mapHeight * zoom }}>
+              <Image
+                source={images.map}
+                style={{ width: '100%', height: '100%', opacity: 0.68 }}
+                resizeMode="stretch"
+              />
+              {visible.map(venue => (
+                <Pressable
+                  accessibilityRole="button"
+                  accessibilityLabel={venue.title}
+                  accessibilityState={{ selected: selected?.id === venue.id }}
+                  key={venue.id}
+                  onPress={() => setSelected(venue)}
+                  style={{
+                    position: 'absolute',
+                    left: `${venue.x}%`,
+                    top: `${venue.y}%`,
+                    width: 44,
+                    height: 48,
+                    marginLeft: -22,
+                    marginTop: -24,
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <View
                     style={{
-                      position: 'absolute',
-                      left: `${venue.x}%`,
-                      top: `${venue.y}%`,
-                      width: 44,
-                      height: 48,
-                      marginLeft: -22,
-                      marginTop: -24,
+                      width: 33,
+                      height: 33,
+                      backgroundColor:
+                        selected?.id === venue.id ? '#FFFFFF' : '#77E52E',
+                      borderWidth: 2,
+                      borderColor: '#D9FFBC',
+                      borderRadius: 18,
+                      borderBottomRightRadius: 3,
+                      transform: [{ rotate: '45deg' }],
+                      shadowColor: '#000',
+                      shadowOpacity: 0.5,
+                      shadowRadius: 4,
+                      elevation: 4,
                       alignItems: 'center',
                       justifyContent: 'center',
                     }}
                   >
-                    <View
-                      style={{
-                        width: 33,
-                        height: 33,
-                        backgroundColor:
-                          selected?.id === venue.id ? '#FFFFFF' : '#77E52E',
-                        borderWidth: 2,
-                        borderColor: '#D9FFBC',
-                        borderRadius: 18,
-                        borderBottomRightRadius: 3,
-                        transform: [{ rotate: '45deg' }],
-                        shadowColor: '#000',
-                        shadowOpacity: 0.5,
-                        shadowRadius: 4,
-                        elevation: 4,
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                      }}
-                    >
-                      <View style={{ transform: [{ rotate: '-45deg' }] }}>
-                        <VenueIcon category={venue.category} />
-                      </View>
+                    <View style={{ transform: [{ rotate: '-45deg' }] }}>
+                      <VenueIcon category={venue.category} />
                     </View>
-                  </Pressable>
-                ))}
-              </View>
-            </ScrollView>
+                  </View>
+                </Pressable>
+              ))}
+            </View>
           </ScrollView>
           <View style={{ position: 'absolute', right: 12, top: 12, gap: 5 }}>
             <IconButton
@@ -253,7 +241,7 @@ export function ArenaMapScreen({
           </Text>
         </View>
         <Text style={{ fontSize: 10, color: colors.dim, textAlign: 'center' }}>
-          Drag to pan · Use controls to zoom · Illustrated venue map
+          Scroll to explore · Use controls to zoom · Illustrated venue map
         </Text>
         {selected && (
           <Reveal key={selected.id} style={s.card}>

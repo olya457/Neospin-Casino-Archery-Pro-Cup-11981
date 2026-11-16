@@ -160,6 +160,7 @@ export function Page({
   back,
   bookings,
   split = false,
+  avoidTabBar = false,
 }: {
   children: React.ReactNode;
   title: string;
@@ -167,6 +168,7 @@ export function Page({
   back?: boolean;
   bookings?: boolean;
   split?: boolean;
+  avoidTabBar?: boolean;
 }) {
   const [width, setWidth] = useState(0);
   const tabBarHeight = useContext(BottomTabBarHeightContext) ?? 0;
@@ -176,12 +178,19 @@ export function Page({
   return (
     <View style={s.screen}>
       <Header title={title} eyebrow={eyebrow} back={back} bookings={bookings} />
-      <SafeAreaView edges={['left', 'right', 'bottom']} style={{ flex: 1 }}>
+      <SafeAreaView
+        edges={['left', 'right', 'bottom']}
+        style={{
+          flex: 1,
+          marginBottom: avoidTabBar && tabBarHeight > 0 ? tabBarHeight + 32 : 0,
+        }}
+      >
         <LayoutProvider value={width || layout.width}>
           <ScrollView
             contentContainerStyle={[
               local.scroll,
-              tabBarHeight > 0 && { paddingBottom: tabBarHeight + 40 },
+              !avoidTabBar &&
+                tabBarHeight > 0 && { paddingBottom: tabBarHeight + 40 },
             ]}
             showsVerticalScrollIndicator={false}
             keyboardShouldPersistTaps="handled"

@@ -1,8 +1,12 @@
 import React from 'react';
-import { View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { NavigationContainer, DarkTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import {
+  BottomTabBar,
+  BottomTabBarProps,
+  createBottomTabNavigator,
+} from '@react-navigation/bottom-tabs';
 import {
   BookOpen,
   GraduationCap,
@@ -11,7 +15,10 @@ import {
   Trophy,
   Library,
 } from 'lucide-react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import {
+  SafeAreaView,
+  useSafeAreaInsets,
+} from 'react-native-safe-area-context';
 import { useLayout } from '../hooks/useLayout';
 import { useReducedMotion } from '../components/Motion';
 import { LearningScreen, ResourceScreen } from '../screens/LearningScreens';
@@ -43,18 +50,94 @@ const icons = {
   Workshops: GraduationCap,
   Learn: Library,
 };
+function SideTabBar({
+  state,
+  descriptors,
+  navigation,
+  insets,
+}: BottomTabBarProps) {
+  return (
+    <SafeAreaView
+      edges={['top', 'bottom', 'left']}
+      style={[rail.safeArea, { width: 80 + insets.left }]}
+    >
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={rail.content}
+      >
+        {state.routes.map((route, index) => {
+          const focused = state.index === index;
+          const { options } = descriptors[route.key];
+          return (
+            <Pressable
+              key={route.key}
+              accessibilityRole="tab"
+              accessibilityState={{ selected: focused }}
+              accessibilityLabel={options.tabBarAccessibilityLabel}
+              testID={options.tabBarButtonTestID}
+              style={rail.item}
+              onPress={() => {
+                const event = navigation.emit({
+                  type: 'tabPress',
+                  target: route.key,
+                  canPreventDefault: true,
+                });
+                if (!focused && !event.defaultPrevented) {
+                  navigation.navigate(route.name, route.params);
+                }
+              }}
+              onLongPress={() =>
+                navigation.emit({ type: 'tabLongPress', target: route.key })
+              }
+            >
+              {options.tabBarIcon?.({
+                focused,
+                color: focused ? '#102006' : '#9AA88F',
+                size: 24,
+              })}
+            </Pressable>
+          );
+        })}
+      </ScrollView>
+    </SafeAreaView>
+  );
+}
+const rail = StyleSheet.create({
+  safeArea: {
+    backgroundColor: '#182014',
+    borderRightWidth: 1,
+    borderRightColor: '#3A4930',
+  },
+  content: {
+    flexGrow: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingVertical: 12,
+    gap: 8,
+  },
+  item: {
+    width: 56,
+    height: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
 function Tabs() {
   const insets = useSafeAreaInsets();
   const layout = useLayout();
   const reduced = useReducedMotion();
+  const sidebar = layout.width > layout.height;
   const availableWidth = layout.width - insets.left - insets.right;
   const barWidth = Math.min(560, availableWidth - 24);
   return (
     <Tab.Navigator
+      tabBar={props =>
+        sidebar ? <SideTabBar {...props} /> : <BottomTabBar {...props} />
+      }
       screenOptions={({ route }) => ({
         headerShown: false,
         animation: reduced ? 'none' : 'fade',
-        tabBarPosition: 'bottom',
+        tabBarPosition: sidebar ? 'left' : 'bottom',
         tabBarShowLabel: false,
         tabBarHideOnKeyboard: true,
         tabBarAccessibilityLabel: {

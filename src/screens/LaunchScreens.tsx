@@ -21,6 +21,8 @@ import { useApp } from '../storage/AppProvider';
 
 const animation = `<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><style>html,body{margin:0;background:transparent;overflow:hidden}body{height:18px;display:flex;align-items:center}.track{width:100%;height:3px;background:#33452c;border-radius:8px;overflow:hidden}.fill{height:100%;width:0;background:linear-gradient(90deg,#83e535,#50d000);box-shadow:0 0 15px #7fff00;animation:loading 4s linear forwards}@keyframes loading{to{width:100%}}@media (prefers-reduced-motion:reduce){.fill{animation:none;width:100%}}</style></head><body><div class="track"><div class="fill"></div></div><script>if(window.matchMedia('(prefers-reduced-motion:reduce)').matches){setTimeout(function(){window.ReactNativeWebView.postMessage('complete')},4000)}else{document.querySelector('.fill').addEventListener('animationend',function(){window.ReactNativeWebView.postMessage('complete')})}</script></body></html>`;
 export function SplashScreen({ onFinish }: { onFinish: () => void }) {
+  const { width, height } = useWindowDimensions();
+  const shortScreen = height / width < 1.8;
   const finished = useRef(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const finish = useCallback(() => {
@@ -49,9 +51,16 @@ export function SplashScreen({ onFinish }: { onFinish: () => void }) {
         colors={['#00000030', '#09130522', '#091305E8']}
         style={StyleSheet.absoluteFill}
       />
-      <SafeAreaView style={local.splashContent}>
-        <Reveal style={local.logoWrap}>
-          <Image source={images.logo} style={local.logo} resizeMode="contain" />
+      <SafeAreaView edges={['top', 'bottom']} style={local.splashContent}>
+        <Reveal style={[local.logoWrap, shortScreen && { paddingTop: 0 }]}>
+          <Image
+            source={images.logo}
+            style={[
+              local.logo,
+              shortScreen && { transform: [{ translateY: 36 }] },
+            ]}
+            resizeMode="contain"
+          />
         </Reveal>
         <View style={local.splashText}>
           <Text style={s.label}>The official app</Text>
