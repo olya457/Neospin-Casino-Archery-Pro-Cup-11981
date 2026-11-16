@@ -354,7 +354,7 @@ export function Partner() {
     >
       <Text style={s.label}>Official event partner</Text>
       <Text style={{ color: colors.text, fontSize: 16, fontWeight: '700' }}>
-        Organized by Neospin Casino
+        Organized by Neospin Archery Pro Cup
       </Text>
       <Text style={[s.body, { fontSize: 12 }]}>
         Supporting world-class sport, learning and visitor experiences.
@@ -363,7 +363,7 @@ export function Partner() {
   );
 }
 export function Footer() {
-  return <Text style={local.footer}>Organized by Neospin Casino</Text>;
+  return <Text style={local.footer}>Organized by Neospin Archery Pro Cup</Text>;
 }
 export function Empty({
   title,

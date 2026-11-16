@@ -64,8 +64,8 @@ export function SplashScreen({ onFinish }: { onFinish: () => void }) {
         </Reveal>
         <View style={local.splashText}>
           <Text style={s.label}>The official app</Text>
-          <Text style={local.brand}>Neospin Casino</Text>
-          <Text style={local.brandGreen}>Archery Pro</Text>
+          <Text style={local.brand}>Neospin</Text>
+          <Text style={local.brandGreen}>Archery Pro Cup</Text>
           <Footer />
         </View>
         <View style={local.progress}>

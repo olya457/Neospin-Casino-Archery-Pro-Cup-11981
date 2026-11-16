@@ -1,4 +1,4 @@
-package com.neospincasinoarcheryprocup
+package com.neospin.archeryprocup
 
 import android.app.Application
 import com.facebook.react.PackageList

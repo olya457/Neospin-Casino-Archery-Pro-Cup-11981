@@ -1,4 +1,4 @@
-package com.neospincasinoarcheryprocup
+package com.neospin.archeryprocup
 
 import android.os.Bundle
 import com.swmansion.rnscreens.fragment.restoration.RNScreensFragmentFactory

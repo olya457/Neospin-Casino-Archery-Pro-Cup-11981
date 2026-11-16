@@ -41,7 +41,7 @@ function EventListScreen({ kind }: { kind: 'championship' | 'workshop' }) {
     >
       <Hero
         image={images.entrance}
-        badge="Organized by Neospin Casino"
+        badge="Organized by Neospin Archery Pro Cup"
         title={workshop ? 'Archery Workshops' : 'World Archery Masters Cup'}
         subtitle={
           workshop
@@ -156,7 +156,7 @@ export function EventDetailsScreen({
         badge={workshop ? 'Practical session' : event.category}
       />
       <View style={s.content}>
-        <Text style={s.label}>Organized by Neospin Casino</Text>
+        <Text style={s.label}>Organized by Neospin Archery Pro Cup</Text>
         <Text style={s.body}>{event.introduction}</Text>
         <Card>
           <InfoRow
